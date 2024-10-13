@@ -16,8 +16,6 @@ float roll = 0;
 float yaw = 0;
 float pitch = 0;
 
-const int smoothing = 1023; // used to map roll/pitch/yaw to an integer value
-
 // Define a TinyUSB HID joystick object
 Adafruit_USBD_HID usb_hid;
 
